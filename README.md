@@ -1,98 +1,37 @@
-# Airbnb Clone
+# StayFinder
 
 ## Overview
 
-This project is a full-stack web application developed as a clone of Airbnb using the MERN stack (MongoDB, Express.js, React.js, Node.js). It aims to replicate the core functionality of Airbnb, allowing users to search for accommodations, view details, make bookings, and manage their listings.
+This project is a full-stack web application developed as a clone of website like Airbnb named as StayFinder using the MERN stack (MongoDB, Express.js, React.js, Node.js). It aims to replicate the core functionality of Airbnb, allowing users to search for accommodations, view details, make bookings, and manage their listings.
 
-## Getting Started
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/rahul4019/airbnb-clone.git
-
-   ```
-
-2. **Install dependencies:**
-
-   Navigate to client directory and install frontend dependencies using yarn
-
-   ```
-   yarn install
-   ```
-
-   Similary navigate to api folder and install backend dependencies
-
-   ```
-   yarn install
-   ```
-
-3. **ENV variables:**
-
-   - create .env file in the client folder and add these variables
-
-     #### VITE_BASE_URL= http://localhost:4000
-
-     #### VITE_GOOGLE_CLIENT_ID= your google client id
-
-   - create .env file in the api folder and add these variables
-
-     #### PORT= 4000
-
-     #### DB_URL= your db url
-
-     #### JWT_SECRET= your secret (string)
-
-     #### JWT_EXPIRY= 20d
-
-     #### COOKIE_TIME= 7
-
-     #### SESSION_SECRET= your secret session (string)
-
-     #### CLOUDINARY_NAME= your secret session
-
-     #### CLOUDINARY_API_KEY= your cloudinary key
-
-     #### CLOUDINARY_API_SECRET= your cloudinary api secret
-
-     #### CLIENT_URL= http://localhost:5173
-
-4. **Run project:**
-   - Open terminal, navigate to client directory and run below command to start frontend
-   ```
-       yarn run dev
-   ```
-   - Open another terminal, navigate to api directory and run this command to start backend server
-   ```
-       yarn start
-   ```
 
 ## Features
 
-- **User Authentication:** Users can sign up, log in, and log out securely. Passwords are hashed for security.
-- **Google Login:** Users can sign up and log in using their gmail.
-
-  ![Airbnb Logo](client/public/assets/auth.png)
-
 - **Search Listings:** Users can search for accommodations.
 
-  ![Airbnb Logo](client/public/assets/search.png)
+ ![Screenshot 2025-06-15 120737](https://github.com/user-attachments/assets/d764497c-3965-4537-b0ce-dcefe44193e8)
 
 - **View Listings:** Users can view detailed information about each accommodation, including photos, descriptions, amenities.
 
-  ![Airbnb Logo](client/public/assets/view.png)
+ ![Screenshot 2025-06-15 120819](https://github.com/user-attachments/assets/9d7b7efe-a05d-4aa4-838b-171d61889a48)
+
+ ![Screenshot 2025-06-15 120916](https://github.com/user-attachments/assets/8349c8ec-082d-4747-8bf6-a738130e52cf)
+
+ - **User Authentication:** Users can sign up, log in, and log out securely. Passwords are hashed for security.
+- **Google Login:** Users can sign up and log in using their gmail.
+  
+![Screenshot 2025-06-15 121210](https://github.com/user-attachments/assets/89792ef3-6c37-437e-be77-2fb7e20a8552)
+
 
 - **Make Bookings:** Authenticated users can book accommodations for specific dates.
 
-  ![Airbnb Logo](client/public/assets/book.png)
+![Screenshot 2025-06-15 121020](https://github.com/user-attachments/assets/fe736908-6f68-4ac5-9a73-bcd630d47a3d)
 
-- **Manage Listings:** Hosts can create, edit, and delete their listings.
-
-  ![Airbnb Logo](client/public/assets/manage.png)
 
 - **Responsive Design:** The application is designed to be responsive and work seamlessly across different devices.
 
-  ![Airbnb Logo](client/public/assets/hero.png)
+ ![Screenshot 2025-06-15 120543](https://github.com/user-attachments/assets/b5fc03b2-bd51-47f3-a09f-67d75b6d85a2)
+
 
 ## Technologies Used
 
